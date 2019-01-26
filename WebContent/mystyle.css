@@ -1,0 +1,175 @@
+@charset "ISO-8859-1";
+header .title{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,2));
+	border-style: groove;
+	border-color: #ef3fd0;
+	border-width: 15px;
+	border-radius:50px; 
+	position: static;
+}
+.title-main h1{
+	color: #ffffff;
+	
+	text-align: center;
+}
+.title-sub{
+	padding-top:0.0001%;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 13%;
+	
+}
+.menu{
+	background-color: white;
+}
+.menu ul li{
+	font-size:xx-large;
+	display: inline;
+	margin-left: 17%;
+}
+.menu ul li:hover{
+
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+.sub-menu-list{
+	background-color: #ff0080;
+	width:18%;
+	font-size: x-large;
+	font-family:sans-serif;
+	padding-top: 1%;
+	float: left;
+	border-radius: 15px;
+}
+.sub-menu-list ins{
+	font-size: xx-large;
+	padding-top: 1%;
+	color: #000000;
+}
+.sub-menu-list li{
+	
+	padding-top: 5%;
+}
+
+.sub-menu-list a{
+	text-decoration: none;
+	font-size: x-large;
+	font-family:sans-serif;
+	padding-top: 1%;
+	color: black;
+	padding-top: 5%;
+}
+.sub-menu-list a:hover{
+	color: #00ffff;
+	cursor: pointer;
+}
+aside{
+	margin-left: 25%;
+	margin-top: 5%;
+	font-family:monospace;
+	font-size: xx-large;
+	font-weight:bolder;
+	font-variant:normal;
+	color: black;
+}
+aside select{
+	font-size: x-large;
+}
+aside select:focus{
+	
+	background-color: black;
+	color:white;
+}
+aside textarea{
+	font-size: xx-large;
+	margin-left: 20%;
+}
+aside textarea:focus{
+	background-color: black;
+	color: white;
+	
+}
+aside h3{
+	color: #eb0f03;
+	background-color: #80ffff;
+	width:30%;
+	padding-left:5%;
+	border-radius: 2em;
+}
+aside h1{
+	width:40%;
+	background-color:#ff0080;
+	color:white;
+	border-radius: 1em;
+	padding-left: 5%;
+}
+aside h5{
+	background-color: #ffff00;
+	color: red;
+	border-radius: 1em;
+	padding-left: 5%;
+	width: 40%;
+}
+aside input{
+	font-size: x-large;
+}
+
+aside input:focus{
+	background-color: #ec0d5b;
+	color: white;
+}
+
+aside table ,th, td {
+	border:2px inset #c00526;
+    border-style: inset; 		
+	
+}
+aside th{
+	background-color: #ff0080;
+	color: white;
+	padding-right: 2%;
+}
+aside td{
+	background-color: #ca2bc6;
+	color: black;
+	padding-top: 2%;
+	padding-right: 2%;
+		
+}
+aside a{
+	text-decoration: blink;
+}
+aside a:hover{
+	color:blue;
+	font-size:larger;
+	cursor: pointer;
+}
+aside a:focus{
+	color:blue;
+	font-size:larger;
+	cursor: pointer;
+}
+aside h1{
+	style=\"width:40%;background-color:#ff0080;color:white;
+	border-radius: 1em;
+	align-items: center;
+	
+}
+.button{
+	background-color: #d7006b;border-radius: 2em;color:white;cursor:pointer;
+}
+footer hr{
+	border: none;
+    height: 1.3px;
+    /* Set the hr color */
+    color: #000000; /* old IE */
+    background-color: #000000;
+}
+footer .footer-containt{
+	font-style:italic;
+	font-size:x-large;
+	padding-bottom:0.4%;
+	background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,2));
+	border-radius: 1em;
+}

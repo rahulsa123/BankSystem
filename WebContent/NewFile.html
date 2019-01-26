@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Balance Sheet</title>
+<script>
+function sub(){
+document.getElementById("find").value='true';
+document.BalanceSheetForm.submit();
+}</script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<header>
+<div class ="title">
+<div class="title-main">
+<h1>ICIC Bank</h1>
+</div>
+<div class="title-sub">
+<h2>Always with you</h2>
+</div>
+</div>
+</header>
+<div class="menu">
+<ul class="menu-list">
+<li><a href="Home" >Home</a></li>
+<li><a href="Profile" >Profile</a></li>
+<li><a href="AboutUs" >About us</a></li>
+<li><a href="Logout" >Logout</a></li>
+</ul>
+</div>
+<section>
+<ul class="sub-menu-list">
+<ins>Menu</ins>
+<li><a href="ExpensesCategoryController">Expenses Category</a></li>
+<li><a href="IncomeCategoryController">Income Category</a></li>
+<li><a href="ExpensesViewController">Expenses</a></li>
+<li><a href="IncomeViewController">Incomes</a></li>
+<li><a href="CashBookView">Cash Book</a></li>
+<li><a href="BankBookViewController">Bank Book</a></li>
+<li><a href="DayBookView">Day Book</a></li>
+<li><a href="BalanceSheetViewController"> Balance Sheet</a></li>
+</ul>
+</section>
+<aside>
+<table>
+<tr>
+<th colspan="6" rowspan="2"><marquee direction="right" behavior="alternate">Balance Sheet </marquee></th>
+</tr>
+<tr></tr>
+<tr>
+<form id="BalanceSheetForm" action="BalanceSheetViewController" method="post">
+<td colspan="2" align="center">Date From<br><input type="date" name="sdate" id="sdate" required="required"></td>
+<td colspan="2" align="center">to<br><input type="date" name="edate" id="edate" required="required"><input type="hidden" name="find" id="find"></td>
+<td colspan="2" align="center"><input type="submit" style="background-color: #d7006b;border-radius: 1em;color:white; padding-left:2%; padding-right:2%; width:90%" onclick ="sub();"></td>
+</form>
+</tr>
+<tr>
+<th colspan="3">Incomes</th>
+<th colspan="3">Expenses</th>
+</tr>
+<tr>
+<th colspan="2">Incomes</th>
+<th>Amount</th>
+<th colspan="2">Expenses</th>
+<th>Amount</th>
+</tr>
+<tr>
+<td colspan="2">raff</td>
+<td>422.0</td>
+<td colspan="2"></td>
+<td>45545.0</td>
+</tr>
+<tr>
+<td colspan="2">selling</td>
+<td>500.0</td>
+<td colspan="2"></td>
+<td>200.0</td>
+</tr>
+<tr>
+<td colspan="2">sdffsd</td>
+<td>4444.0</td>
+<td colspan="2">Saving</td>
+<td>300.0</td>
+</tr>
+<tr>
+<td colspan="2">sell</td>
+<td>400.0</td>
+<td colspan="2">Fixed</td>
+<td>4444.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">rrr</td>
+<td>3242.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">ds</td>
+<td>4544.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">ELECTRICITY</td>
+<td>200.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">loan</td>
+<td>500.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">loan</td>
+<td>4000.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">rrrr</td>
+<td>444.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">ewfgew</td>
+<td>44345.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">adfs</td>
+<td>3538.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">edfeasf</td>
+<td>341.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">erfefe</td>
+<td>45454.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">gsd</td>
+<td>4535.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">3434</td>
+<td>233228.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">44t4</td>
+<td>452.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">dsgsdfg</td>
+<td>43534.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">gdgdrg</td>
+<td>43542.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">gsdgs</td>
+<td>4353.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">edf</td>
+<td>343.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">dgrr</td>
+<td>3443.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">fwf</td>
+<td>543.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">rgr</td>
+<td>64346.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">gere</td>
+<td>3445.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">gsrg</td>
+<td>435345.0</td>
+</tr>
+<tr>
+<td colspan="2">  </td>
+<td> </td>
+<td colspan="2">electricity</td>
+<td>56666.0</td>
+</tr>
+<tr>
+<th colspan="2">Total</th>
+<th>5766.0</th>
+<th colspan="2">Total</th>
+<th>1050872.0</th>
+</tr>
+<tr>
+<td colspan="4" align="right" style="color :white;"> Total Loss</td>
+<td colspan="2">-1045106.0 Rs</td>
+</tr>
+</table>
+</aside>
+<footer style="position: relative;left: 0;bottom: 0;margin-top: 25%;">
+<hr class="footer-hr">
+<div class="footer-containt">
+<h2>Contact Us</h2>
+<h4>+919988776655</h4>
+<h4>Lig 127 Sector B sonagiri </h4>
+<h4>Bhopal (MP), 402023</h4>
+</div>
+</footer>
+</body>
+</html>
